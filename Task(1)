@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Variable Practice</title>
+</head>
+<body>
+  <h1>Open the Console to See Output</h1>
+  <script>
+    var userName = "Jomesh";
+    console.log("Using var:");
+    console.log("Initial userName:", userName);
+
+    userName = "Cicil";
+    console.log("Updated userName:", userName);
+    let userAge = 20;
+    console.log("\nUsing let:");
+    console.log("Initial userAge:", userAge);
+
+    userAge = 21;
+    console.log("Updated userAge:", userAge);
+    const userCountry = "India";
+    console.log("\nUsing const:");
+    console.log("userCountry:", userCountry);
+
+    console.log("\n✔ Program finished successfully!");
+  </script>
+</body>
+</html>
