@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Data Types & Type Conversion</title>
+</head>
+<body>
+  <h1>Check the Console for Output</h1>
+  <script>
+    let num = 42;
+    console.log("Number:", num);
+
+    let str = "Hello, JavaScript!";
+    console.log("String:", str);
+
+    let isOnline = true;
+    console.log("Boolean:", isOnline);
+
+    let emptyValue = null;
+    console.log("Null:", emptyValue);
+
+    let notAssigned;
+    console.log("Undefined:", notAssigned);
+
+    let person = { name: "Jomesh", age: 21 };
+    console.log("Object:", person);
+
+    let uniqueID = Symbol("id");
+    console.log("Symbol:", uniqueID);
+
+    console.log("\nType Conversion Examples");
+
+    let stringNumber = "123";
+    let convertedToNumber = Number(stringNumber);
+    console.log("String to Number:", convertedToNumber, typeof convertedToNumber);
+
+    let num2 = 99;
+    let convertedToString = String(num2);
+    console.log("Number to String:", convertedToString, typeof convertedToString);
+
+    console.log("\nImplicit Conversions:");
+
+    console.log("5" + 2);
+    console.log("5" - 2);
+    console.log("5" * "2");
+    console.log("Hello" * 2);
+
+    console.log(Number(true));
+    console.log(Number(false));
+
+    console.log(Number(null));
+    console.log(Number(undefined));
+
+    console.log("\nType Conversion Demonstration Complete");
+  </script>
+</body>
+</html>
