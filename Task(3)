@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Operators</title>
+</head>
+<body>
+  <h1>Open Console to See Output</h1>
+  <script>
+    let a = 10, b = 3;
+    console.log("Arithmetic:", a + b, a - b, a * b, a / b, a % b);
+    let x = 5;
+    x += 2; x -= 1;
+    console.log("Assignment:", x);
+    console.log("Relational:", a == b, a === b, a != b, a !== b, a > b, a < b);
+    let p = true, q = false;
+    console.log("Logical:", p && q, p || q, !p);
+    let age = 17;
+    console.log("Ternary:", age >= 18 ? "Adult" : "Minor");
+    let m = 5, n = 3;
+    console.log("Bitwise:", m & n, m | n, m ^ n, ~m, m << 1, m >> 1);
+    let c = 5;
+    console.log("Inc/Dec:", c++, ++c, c--, --c);
+  </script>
+</body>
+</html>
