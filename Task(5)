@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+int main() {
+    cout << "Numbers from 1 to 10 using while loop:" << endl;
+    int i = 1;
+    while (i <= 10) {
+        cout << i << " ";
+        i++;
+    }
+    cout << endl << endl;
+    string password;
+    do {
+        cout << "Enter the password (hint: 'open'): ";
+        cin >> password;
+    } while (password != "open");
+    cout << "Access granted!" << endl << endl;
+    int N;
+    cout << "Enter a number N to find sum of first N natural numbers: ";
+    cin >> N;
+    int sum = 0;
+    for (int j = 1; j <= N; j++) {
+        sum += j;
+    }
+    cout << "Sum of first " << N << " natural numbers is: " << sum << endl << endl;
+    cout << "Multiplication Table (1 to 10):" << endl;
+    for (int row = 1; row <= 10; row++) {
+        for (int col = 1; col <= 10; col++) {
+            cout << row * col << "\t";
+        }
+        cout << endl;
+    }
+    return 0;
+}
